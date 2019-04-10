@@ -279,7 +279,7 @@ All XML content of the parts defined in this specification MUST conform to the f
 
 #### 2.3.3.1. XML Namespaces
 
-The 3MF Document core _XML namespace_, the principal namespace used for elements and attributes in 3D Model part markup is given in Appendix C, "Standard Namespaces and Content Types". Any elements and attributes undefined in this spec must be prefaced with the namespace corresponding to the 3MF extension they belong to.
+The 3MF Document core _XML namespace_, the principal namespace used for elements and attributes in 3D Model part markup is given in Appendix C, "Standard Namespaces and Content Types". Any elements and attributes undefined in this spec MUST be prefaced with the namespace corresponding to the 3MF extension they belong to.
 
 As a reminder, a non-default XML namespace on an element DOES automatically apply to any attributes of that element (unless another namespace is prefixed), but DOES NOT apply to sub-elements, so they must all be individually prefixed. Any attributes falling into an anyattribute extension point MUST be prefixed with their corresponding namespace (as all such extension points specify "other" for the required namespace in the XSD schema).
 
